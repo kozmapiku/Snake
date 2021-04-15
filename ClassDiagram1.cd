@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Snake.Model.SnakeGameModel">
+    <Position X="0.5" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>ACCggCIAAAAgAgAEBMQUQAAABAQACCAEiAYgQAADABA=</HashCode>
+      <FileName>Model\SnakeGameModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Snake.Model.SnakeEventArgs">
+    <Position X="6" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAgAABAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Model\SnakeEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Snake.Persistence.SnakeDataException">
+    <Position X="11.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Persistence\SnakeDataException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Snake.Persistence.SnakeFileDataAccess" BaseTypeListCollapsed="true">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Persistence\SnakeFileDataAccess.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.453" Collapsed="true" />
+  </Class>
+  <Class Name="Snake.Persistence.SnakeTable">
+    <Position X="6.5" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAJAAAGALAAAggAACAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Persistence\SnakeTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Snake.Program">
+    <Position X="11.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Snake.View.GameForm">
+    <Position X="13.5" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AQgAABBQBCghgAAAgkCAAAACACYkECAAQgAEBABCABA=</HashCode>
+      <FileName>View\GameForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Snake.Persistence.ISnakeDataAccess">
+    <Position X="11.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Persistence\ISnakeDataAccess.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Snake.Model.Direction">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAI=</HashCode>
+      <FileName>Model\SnakeGameModel.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Snake.Model.GameDifficulty">
+    <Position X="3.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAA=</HashCode>
+      <FileName>Model\SnakeGameModel.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Snake.Persistence.TableObject">
+    <Position X="8.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAYAAAAAAAAIAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Persistence\SnakeTable.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
